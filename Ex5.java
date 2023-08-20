@@ -7,7 +7,7 @@ public class Ex5 {
     public static void main(String[] args) {
         Scanner nx = new Scanner(System.in);
         System.out.println("Digite um valor: ");
-        // Integer x = Integer.parseInt(nx.nextLine());
         System.out.println("O numero antecessor -> " + antecessor(Integer.parseInt(nx.nextLine())));
+        nx.close();
     }
 }

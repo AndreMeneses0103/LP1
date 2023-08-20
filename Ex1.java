@@ -1,6 +1,3 @@
-/**
- * Ex1
- */
 public class Ex1 {
     public void trocar(int vA, int vB) {
         int val = vA;

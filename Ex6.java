@@ -12,5 +12,6 @@ public class Ex6 {
         System.out.println("Digite a altura: ");
         float b = Float.parseFloat(nx.nextLine());
         retangulo(a, b);
+        nx.close();
     }
 }

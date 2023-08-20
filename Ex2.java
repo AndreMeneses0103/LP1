@@ -5,7 +5,7 @@ public class Ex2 {
         int b = 20;
         System.out.println("B = " + b);
         b = 5;
-        System.out.println("A = " + a + " e B = " + b);
+        System.out.println("A = " + a + " B = " + b);
     }
     
     public static void exB() {
@@ -14,9 +14,9 @@ public class Ex2 {
         int c = a + b;
         System.out.println("C = " + c);
         b = 10;
-        System.out.println("B = " + b + " e C = " + c);
+        System.out.println("B = " + b + " C = " + c);
         c = a + b;
-        System.out.println("A = " + a + " e B = " + b + " e C = "+c);
+        System.out.println("A = " + a + " B = " + b + " C = "+c);
     }
 
     public static void exC() {
@@ -25,7 +25,7 @@ public class Ex2 {
         int c = a;
         b = c;
         a = b;
-        System.out.println("A = "+ a + " e B = "+b+" e C = "+ c);
+        System.out.println("A = "+ a + " B = "+b+" C = "+ c);
     }
 
     public static void exD() {
@@ -49,7 +49,7 @@ public class Ex2 {
     
     public static void exF() {
         int x = 1;
-        int y = 2;
+        int y = 2;  
         int z = y - x;
         System.out.println("Z = " + z);
         x = 5;
