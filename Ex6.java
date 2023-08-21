@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Ex6 {
     public static void retangulo(float base, float altura) {
-        System.out.println("A area do retangulo = " + (base*altura));
+        float res = base*altura;
+        System.out.println("A area do retangulo = " + (res));
     }
 
     public static void main(String[] args) {

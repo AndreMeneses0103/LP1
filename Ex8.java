@@ -1,10 +1,12 @@
 import java.util.Scanner;
 public class Ex8 {
     public static void percent(float nt, float nb, float nn, float nv) {
-        System.out.println(nt);
-        System.out.println("Percentual de votos brancos: " + ((nb/nt)*100) + "%");
-        System.out.println("Percentual de votos nulos: " + ((nn/nt)*100) + "%");
-        System.out.println("Percentual de votos validos: " + ((nv/nt)*100) + "%");
+        float pBranco = (nb/nt)*100;
+        float pNulo = (nn/nt)*100;
+        float pVal = (nv/nt)*100;
+        System.out.println("Percentual de votos brancos: " + (pBranco) + "%");
+        System.out.println("Percentual de votos nulos: " + (pNulo) + "%");
+        System.out.println("Percentual de votos validos: " + (pVal) + "%");
     }
     
     public static void main(String[] args) {

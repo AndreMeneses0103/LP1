@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class Ex9 {
-    public static void calculo(float i, float x) {
-        System.out.println("O salario reajustado sera: " + ((i*(x+100)/100)) + " reais");
+    public static float calculo(float i, float x) {
+        float finals = (i*(x+100)/100);
+        return(finals);
     }
 
     public static void main(String[] args) {
@@ -13,7 +14,8 @@ public class Ex9 {
         sal = nx.nextFloat();
         System.out.println("Digite o reajuste (%): ");
         reaj = nx.nextFloat();
-        calculo(sal, reaj);
+        float fim = calculo(sal, reaj);
+        System.out.println("O salario reajustado sera: " + (fim) + " reais");
         nx.close();
     }
 }
