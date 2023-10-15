@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex7 {
     public static int calculo(int a, int m, int d) {
-        int total = d + (m * 30) + (a * 360);
+        int total = d + (m * 30) + (a * 365);
         return total;
     }
 
