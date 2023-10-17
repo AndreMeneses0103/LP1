@@ -21,7 +21,7 @@ public class Ex83 {
             vetor[vetor.length - x - 1] = temporario;
         }
 
-        System.out.println("Vetor invertido: " + Arrays.toString(vetor));
+        // System.out.println("Vetor invertido: " + Arrays.toString(vetor));
 
     }
 }

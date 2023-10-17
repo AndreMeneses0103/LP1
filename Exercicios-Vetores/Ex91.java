@@ -1,8 +1,9 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ex91 {
     public static void main(String[] args) {
-        Integer[] VET = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+        Integer[] VET = new Integer[50];
         Scanner input = new Scanner(System.in);
 
         for (int z = 0; z < 50; z++) {
@@ -10,7 +11,6 @@ public class Ex91 {
             Integer x = input.nextInt();
             VET[z] = x;
         }
-
         for (int a = 0; a < VET.length; a++) {
             int conta = 0;
 

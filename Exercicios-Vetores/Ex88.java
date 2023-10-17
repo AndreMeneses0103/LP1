@@ -31,8 +31,7 @@ public class Ex88 {
                     todos_indices++;
                 }
             }
-            System.out.println("NOVO VETOR = " + Arrays.toString(novo_valores));
-            System.out.println("VELHO VETOR = " + Arrays.toString(valores));
+            System.out.println(Arrays.toString(novo_valores));
         }else{
             System.out.println("O numero selecionado nao foi encontrado na lista.");
         }
